@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "detect_functions", "detect_functions\detect_functions.pyproj", "{41B35B58-8806-48DE-B05D-8B5C55F6BB3A}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_4", "detect_functions\Lab_4.pyproj", "{41B35B58-8806-48DE-B05D-8B5C55F6BB3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

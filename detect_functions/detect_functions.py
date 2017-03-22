@@ -1,20 +1,7 @@
-## Print a list of in-degree and out-degree for functions
-
-from sets import Set
-
 ea = ScreenEA()
-
-callers = dict()
-callees = dict()
 
 # Loop through all the functions
 for f in Functions(SegStart(ea), SegEnd(ea)):
-
-    f_name = GetFunctionName(f)
-
-    # Create a set with all the names of the functions calling (referring to)
-    # the current one.
-    callers[f_name] = Set(map(GetFunctionName, CodeRefsTo(f, 0)))
 
     # For each of the incoming references
     for ref in CodeRefsTo(f, 0):
